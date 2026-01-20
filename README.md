@@ -1,1 +1,1 @@
-l'entreprise s'apelle MindOS et vend des puces du meme nom qui permettent d'augementer les capacité cognitive comme un ordinateur
+l'entreprise s'apelle MindOS et vend des puces du meme nom qui permettent d'augementer les capacité cognitive comme un ordinateur, nous somme 2, Milo et Djola
