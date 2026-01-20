@@ -29,6 +29,17 @@ header{
     align-items: center;
     padding-right: 50px;
 }
+header{
+    display: flex;
+justify-content: space-between;
+text-shadow: 2px 2px 4px black;
+font-size: 25px;
+border-bottom: solid 2px darkgray;
+align-items: center;
+padding-right: 50px;
+padding-left: 20px;
+height: 150px;
+}
 button{
     padding-left: 40px;
     padding-right: 40px;
@@ -43,6 +54,7 @@ button:hover{
     transition-duration: 1s;
     background-color: lightgray;
 }
+
 h1, p, h2, h3, ul, li, button{
     font-family: "Roboto", sans-serif;
 }
@@ -109,5 +121,50 @@ h1, p, h2, h3, ul, li, button{
     box-shadow: 4px 4px 4px rgb(0, 0, 0);
     font-size: 20px;
     border-radius: 10px;
+    background-color: rgb(255, 247, 241);
+}
+.c{
+    display: flex;
+    flex-direction: column;
+    gap : 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+h1, p, h2, h3, ul, li, button{
+    font-family: "Roboto", sans-serif;
+}
+.p{
+    border-radius: 20px ;
+    background-color: red;
+    padding: 20px;
+}
+.t{
+    border-radius: 20px ;
+    background-color: red;
+    padding: 20px;
+}
+.o{
+    border-radius: 20px;
+    background-color: rgba(54, 174, 179);
+    padding: 20px;
+}
+.s{
+    border-radius: 20px;
+    background-color: rgba(54, 174, 179);
+    padding: 20px;
+}  
+.j{
+    text-align: center;
+
+}
+.x{
+    display: flex;
+}
+
+.textbox{
+    box-shadow: 4px 4px 4px gray;
+    border-radius: 20px;
+    padding-left: 10px;
     background-color: rgb(255, 247, 241);
 }
