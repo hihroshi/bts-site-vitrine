@@ -1,7 +1,3 @@
-body{
-    margin: 0;
-    background-color: rgba(245, 239, 234);
-}
 .logo_grand{
     width: 40%;
     border-radius: 20px;
@@ -21,13 +17,6 @@ h1{
     padding-left: 60px;
     padding-right: 60px;
     gap: 100px;
-}
-header{
-    border-bottom: solid 2px darkgray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 50px;
 }
 header{
     display: flex;
@@ -51,59 +40,8 @@ button{
     font-size: 20px;
 }
 button:hover{
-    transition-duration: 1s;
-    background-color: lightgray;
+    transition-duration: 1s
 }
-
-h1, p, h2, h3, ul, li, button{
-    font-family: "Roboto", sans-serif;
-}
-
-.olcards,
-.olcards * {
-  margin: 0;
-  padding: 0;   
-}
- 
-.olcards {
-  display: flex;
-  flex-direction: column;
-  --cardsGap: 0px;
-}
-.olcards li {
-  counter-increment: cardCount;
-  display: flex;
-  --labelOffset: 1rem;
-  --arrowClipSize: 1.5rem;
-  margin-top: var(--labelOffset);
-}
-.olcards li .content {
-  background-color: #e0d6cd;
-  --inlinePadding: 1em;
-  --boxPadding: 0.5em;
-  display: grid;
-  padding: var(--boxPadding) calc(var(--inlinePadding) + var(--arrowClipSize))
-    var(--boxPadding) calc(var(--inlinePadding) + var(--labelOffset));
-  gap: 0.25em 1em;
-  clip-path: polygon(
-    0 0,
-    calc(100% - var(--arrowClipSize)) 0,
-    100% 50%,
-    calc(100% - var(--arrowClipSize)) 100%,
-    calc(100% - var(--arrowClipSize)) calc(100% + var(--cardsGap)),
-        0 calc(100% + var(--cardsGap))
-  );
-  position: relative;
-}
-.title {
-  font-size: 25px;
-}
-    .textbox{
-        box-shadow: 4px 4px 4px gray;
-        border-radius: 20px;
-        padding-left: 10px;
-        background-color: rgb(255, 247, 241);
-    }
 .grotitre{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -130,9 +68,6 @@ h1, p, h2, h3, ul, li, button{
     padding-right: 40px;
     padding-left: 40px;
 
-}
-h1, p, h2, h3, ul, li, button{
-    font-family: "Roboto", sans-serif;
 }
 .p{
     border-radius: 20px ;
@@ -184,25 +119,4 @@ h1, p, h2, h3, ul, li, button{
     flex-direction: row;
     gap: 50px;
     align-items: center;
-}
-
-footer .LienDiv{
-    padding-left: 5%;
-    padding-right: 60%;
-    display: flex;
-    justify-content: space-evenly;
-}
-footer .LogoDiv{
-    padding-left: 3%;
-    padding-right: 58%;
-    display: flex;
-    justify-content: space-evenly;
-}
-footer p{
-    font-size: 13px;
-    color:rgba(159, 177, 209);
-}
-.logo{
-    background-color: white;
-    border-radius: 14px;
 }
