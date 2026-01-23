@@ -100,10 +100,20 @@ h1, p, h2, h3, ul, li, button{
 .x{
     display: flex;
 }
+.l{
+    border-radius: 40px;
+    padding: 20px;
+}
 .n{
     display: flex;
     flex-direction: row;
     gap: 0px;
+    align-items: center;
+}
+.b{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
     align-items: center;
 }
 footer .LienDiv{
