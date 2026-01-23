@@ -91,9 +91,6 @@ h1, p, h2, h3, ul, li, button{
     padding-left: 40px;
 
 }
-h1, p, h2, h3, ul, li, button{
-    font-family: "Roboto", sans-serif;
-}
 .j{
     text-align: center;
 }
@@ -105,24 +102,4 @@ h1, p, h2, h3, ul, li, button{
     flex-direction: row;
     gap: 0px;
     align-items: center;
-}
-footer .LienDiv{
-    padding-left: 5%;
-    padding-right: 60%;
-    display: flex;
-    justify-content: space-evenly;
-}
-footer .LogoDiv{
-    padding-left: 3%;
-    padding-right: 58%;
-    display: flex;
-    justify-content: space-evenly;
-}
-footer p{
-    font-size: 13px;
-    color:rgba(159, 177, 209);
-}
-.logo{
-    background-color: white;
-    border-radius: 14px;
 }
