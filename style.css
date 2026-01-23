@@ -1,66 +1,3 @@
-.logo_grand{
-    width: 40%;
-    border-radius: 20px;
-}
-h1{
-    font-size: 50px;
-    text-shadow: 4px 4px 4px gray;
-}
-.section1{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.section1_2{
-    display: flex;
-    flex-direction: row-reverse;
-    padding-left: 60px;
-    padding-right: 60px;
-    gap: 100px;
-}
-header{
-    display: flex;
-justify-content: space-between;
-text-shadow: 2px 2px 4px black;
-font-size: 25px;
-border-bottom: solid 2px darkgray;
-align-items: center;
-padding-right: 50px;
-padding-left: 20px;
-height: 150px;
-}
-button{
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: white;
-    border: 0px;
-    border-radius: 20px;
-    font-size: 20px;
-}
-button:hover{
-    transition-duration: 1s
-}
-.grotitre{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    box-shadow: 4px 4px 4px rgb(0, 0, 0);
-    border-radius: 60px;
-    background-color: rgb(255, 247, 241);
-}
-.petititre{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 4px 4px 4px rgb(0, 0, 0);
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: rgb(255, 247, 241);
-}
 .c{
     display: flex;
     flex-direction: column;
@@ -95,14 +32,6 @@ button:hover{
 }
 .x{
     display: flex;
-}
-
-.textbox{
-    box-shadow: 4px 4px 4px gray;
-    border-radius: 20px;
-    padding-left: 20px;
-    background-color: rgb(255, 247, 241);
-    margin-left: 20px;
 }
 .l{
     border-radius: 40px;
